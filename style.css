@@ -4,6 +4,11 @@
 }
 
 @font-face {
+    font-family: Roboto-Bold;
+    src: url(./fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
     font-family: Roboto-Medium;
     src: url(./fonts/Roboto-Medium.ttf);
 }
@@ -13,6 +18,16 @@
     src: url(./fonts/Roboto-Light.ttf);
 }
 
+@font-face {
+    font-family: Roboto-Light-Italic;
+    src: url(./fonts/Roboto-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(./fonts/Roboto-Regular.ttf);
+}
+
 body{
     margin: 0;
 }
@@ -20,9 +35,97 @@ body{
 #hero {
     width: 100vw;
     background-color: #1F2937;
-    height: 22vw;
-    object-fit: contain;
+    height: 24vw;
+}
+
+#information {
+    width: 100vw;
+    background-color: #ffffff;
+    height: 24vw; 
+    padding-top: 0vw;
+}
+
+#quote {
+    width: 100vw;
+    background-color: #e5e7eb;
+    height: 24vw;
+}
+
+#information-title {
+    font-size: 1.6vw;
+    font-family: Roboto-Medium ,Georgia, 'Times New Roman', Times, serif ;
+    color: #1D2937;
+    margin: 3vw 40.1vw;
+    font-weight: bold;
+}
+
+#info-tiles-container {
+    display: flex;
+    padding: 0vw 30vw;
+}
+
+#quote-container {
+    display: flex;
+    padding: 6vw 30vw;
+    flex-direction: column;
+}
+
+#quote-text{
+    font-family: Roboto-Light-Italic, Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.81vw;
+    color: #1f2937;
+    margin: 0;
+}
+
+#call-to-action-container{
+    display: flex;
+    width: 100vw;
+    height: 20vw;
     
+}
+
+#call-to-action{
+    display: flex;
+    width: 50vw;
+    height: 7.5vw;
+    background-color: #3882f6;
+    align-items: center;
+    border-radius: 0.5vw;
+    margin: 5vw 25vw;
+    
+}
+
+#call-to-action-text{
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, Georgia, 'Times New Roman', Times, serif;
+    flex-grow: 15;
+    margin: auto 5vw;
+}
+
+#call-to-action-text-main{
+    font-size: 1.25vw;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+#call-to-action-text-sub{
+    font-size: 0.75vw;
+    color: #e5e7eb;
+}
+
+#call-to-action-sign-up-button{
+    border: 1px solid white;
+    flex-grow: 1;
+    margin: auto 5vw;
+}
+
+#quote-author{
+    font-family: Roboto-Bold, Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2vw;
+    font-weight: bolder;
+    text-align: right;
+    color: #1f2937;
 }
 
 #header {
@@ -31,8 +134,22 @@ body{
     padding-top: 0.5vw;
 }
 
+#footer{
+    width: 100vw;
+    height: 1.5vw;
+    background-color: #1F2937;
+    padding: 1vw 0;
+    position: fixed;
+    bottom: 0;
+}
+
+#footer-text{
+    color: #e5e7eb;
+    margin: 0 45vw;
+}
+
 #header-logo{
-    flex-grow: 15;
+    flex-grow: 20;
     color: rgb(255, 255, 255);
     font-family: Roboto-Medium, Georgia, 'Times New Roman', Times, serif;
     font-size: 1vw;
@@ -70,39 +187,56 @@ body{
 #hero-content-text-sub{
     font-size: 0.8vw;
     font-family:Roboto-Light ,Georgia, 'Times New Roman', Times, serif ;
-    color: #a0a3aa;
+    color: #e5e7eb;
 
 }
 
 .header-link{
     text-decoration: none;
     flex-grow: 1;
-    position: relative;
-    right: 0;
     font-family: Roboto-Light, Georgia, 'Times New Roman', Times, serif;
     font-size: 0.8vw;
-    color: #a0a3aa;
-    transition: font-size 0.2s, color 0.2s;
+    color: #e5e7eb;
+    transition: transform 0.2s, color 0.2s;
 }
 
 .sign-up-button {
     width: 5vw;
     height: 1.5vw;
     margin: 0.5vw 0;
-    border-radius: 7px;
+    border-radius: 0.3vw;
     background-color: #3882f6;
     color: #f9faf8;
     border: none;
     font-size:0.7vw;
-    transition: font-size 0.2s;
+    transition: transform 0.2s;
+    padding: 0;
 }
 
 .sign-up-button:hover {
     cursor: pointer;
-    font-size:0.9vw;
+    transform: scale(1.2);
 }
 
 .header-link:hover {
-    font-size:0.9vw;
+    transform: scale(1.2);
     color: #f9faf8;
+}
+
+.info-tile-ilustration{
+    width: 7.4vw;
+    height: 7.42vw;
+    border-radius: 0.75vw;
+    border: 0.25vw solid #3882f6;
+}
+
+.info-tile {
+    margin: 0 1vw;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    font-family:Roboto-Medium, Georgia, 'Times New Roman', Times, serif ;
+    font-size: 0.877vw;
+    text-align: center;
+    color: #a8aaad;
 }
