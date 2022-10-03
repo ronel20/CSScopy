@@ -1,0 +1,108 @@
+@font-face {
+    font-family: Roboto-Black;
+    src: url(./fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Medium;
+    src: url(./fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: Roboto-Light;
+    src: url(./fonts/Roboto-Light.ttf);
+}
+
+body{
+    margin: 0;
+}
+
+#hero {
+    width: 100vw;
+    background-color: #1F2937;
+    height: 22vw;
+    object-fit: contain;
+    
+}
+
+#header {
+    display: flex;
+    margin: auto 20vw;
+    padding-top: 0.5vw;
+}
+
+#header-logo{
+    flex-grow: 15;
+    color: rgb(255, 255, 255);
+    font-family: Roboto-Medium, Georgia, 'Times New Roman', Times, serif;
+    font-size: 1vw;
+    color: #f9faf8;
+}
+
+#hero-content{
+    display: flex;
+    padding: 5vw 20vw;
+}
+
+#hero-content-text{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    margin-right: 3vw
+    
+}
+
+#hero-placeholder-image{
+    width: 30vw;
+    height: 10vw;
+    object-fit: cover;
+    margin-left: 3vw;
+    align-self: center;
+}
+
+#hero-content-text-main{
+    font-size: 2.5vw;
+    font-family:Roboto-Black ,Georgia, 'Times New Roman', Times, serif ;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+#hero-content-text-sub{
+    font-size: 0.8vw;
+    font-family:Roboto-Light ,Georgia, 'Times New Roman', Times, serif ;
+    color: #a0a3aa;
+
+}
+
+.header-link{
+    text-decoration: none;
+    flex-grow: 1;
+    position: relative;
+    right: 0;
+    font-family: Roboto-Light, Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.8vw;
+    color: #a0a3aa;
+    transition: font-size 0.2s, color 0.2s;
+}
+
+.sign-up-button {
+    width: 5vw;
+    height: 1.5vw;
+    margin: 0.5vw 0;
+    border-radius: 7px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    font-size:0.7vw;
+    transition: font-size 0.2s;
+}
+
+.sign-up-button:hover {
+    cursor: pointer;
+    font-size:0.9vw;
+}
+
+.header-link:hover {
+    font-size:0.9vw;
+    color: #f9faf8;
+}
