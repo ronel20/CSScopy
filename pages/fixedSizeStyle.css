@@ -1,31 +1,31 @@
 @font-face {
     font-family: Roboto-Black;
-    src: url(./fonts/Roboto-Black.ttf);
+    src: url(../fonts/Roboto-Black.ttf);
 }
 
 @font-face {
     font-family: Roboto-Bold;
-    src: url(./fonts/Roboto-Bold.ttf);
+    src: url(../fonts/Roboto-Bold.ttf);
 }
 
 @font-face {
     font-family: Roboto-Medium;
-    src: url(./fonts/Roboto-Medium.ttf);
+    src: url(../fonts/Roboto-Medium.ttf);
 }
 
 @font-face {
     font-family: Roboto-Light;
-    src: url(./fonts/Roboto-Light.ttf);
+    src: url(../fonts/Roboto-Light.ttf);
 }
 
 @font-face {
     font-family: Roboto-Light-Italic;
-    src: url(./fonts/Roboto-LightItalic.ttf);
+    src: url(../fonts/Roboto-LightItalic.ttf);
 }
 
 @font-face {
     font-family: Roboto;
-    src: url(./fonts/Roboto-Regular.ttf);
+    src: url(../fonts/Roboto-Regular.ttf);
 }
 
 body, figure{
@@ -36,38 +36,38 @@ body, figure{
     width: inherit;
     height: inherit;
     object-fit: cover;
-    border-radius: 0.5vw;
+    border-radius: 9.6px;
     
 }
 
 .information-title {
-    font-size: 1.6vw;
+    font-size: 30.72px;
     font-family: Roboto-Medium ,Georgia, 'Times New Roman', Times, serif ;
-    margin: 3vw 44.1vw;
+    margin: 57.6px 830.92px;
     font-weight: bold;
 }
 
 .info-tiles-container {
-    padding: 0vw 30vw;
+    padding: 0px 576px;
 }
 
 .quote-container {
-    padding: 3vw 30vw;
+    padding: 70.2px 576px;
 }
 
 .quote-text{
     font-family: Roboto-Light-Italic, Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.81vw;
+    font-size: 34.752px;
     color: #1f2937;
     margin: 0;
 }
 
 .call-to-action{
-    width: 50vw;
-    height: 7.5vw;
+    width: 960px;
+    height: 144px;
     align-items: center;
-    border-radius: 0.5vw;
-    margin: 5vw 25vw;
+    border-radius: 9.6px;
+    margin: 96px 480px;
     align-self: center;
     
 }
@@ -75,80 +75,80 @@ body, figure{
 .call-to-action-text{
     font-family: Roboto, Georgia, 'Times New Roman', Times, serif;
     flex-grow: 15;
-    margin: auto 5vw;
+    margin: auto 96px;
 }
 
 .call-to-action-text-main{
-    font-size: 1.25vw;
+    font-size: 24px;
     font-weight: 500;
 }
 
 .call-to-action-text-sub{
-    font-size: 0.75vw;
+    font-size: 14.4px;
 }
 
 #call-to-action-sign-up-button{
     flex-grow: 1;
-    margin: auto 5vw;
+    margin: auto 96px;
 }
 
 .quote-author{
     font-family: Roboto-Bold, Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.2vw;
+    font-size: 23.04px;
     font-weight: bolder;
     text-align: right;
     background-color: transparent;
 }
 
 .header {
-    margin: auto 20vw;
-    padding-top: 0.5vw;
+    margin: auto 384px;
+    padding-top: 9.6px;
 }
 
 .footer{
-    width: 100vw;
-    height: 1.5vw;
+    width: 1920px;
+    height: 28.8px;
     background-color: #1F2937;
-    padding: 1vw 0;
+    padding: 19.2px 0;
 }
 
 .footer-text{
-    margin: 0 45vw;
-    font-size: 1vw;
+    margin: 0 864px;
+    font-size: 19.2px;
 }
 
 .header-logo{
     flex-grow: 20;
     font-family: Roboto-Medium, Georgia, 'Times New Roman', Times, serif;
-    font-size: 1vw;
+    font-size: 19.2px;
 }
 
 .hero-content{
-    padding: 5vw 20vw;
+    padding: 96px 384px;
 }
 
 .hero-content-text{
-    width: 20vw;
-    margin-right: 3vw
+    width: 384px;
+    margin-right: 57.6px
     
 }
 
 .hero-placeholder-image{
-    width: 30vw;
-    height: 10vw;
+    width: 576px;
+    height: 192px;
     object-fit: cover;
-    margin-left: 3vw;
+    margin-left: 57.6px;
     align-self: center;
 }
 
 .hero-content-text-main{
-    font-size: 2.5vw;
+    font-size: 48px;
     font-family:Roboto-Black ,Georgia, 'Times New Roman', Times, serif ;
     font-weight: bolder;
 }
 
 .hero-content-text-sub{
-    font-size: 0.8vw;
+    font-size: 15.36px;
     font-family:Roboto-Light ,Georgia, 'Times New Roman', Times, serif ;
 
 }
@@ -157,41 +157,41 @@ body, figure{
     text-decoration: none;
     flex-grow: 1;
     font-family: Roboto-Light, Georgia, 'Times New Roman', Times, serif;
-    font-size: 0.8vw;
+    font-size: 15.36px;
     transition: font-size 0.2s, color 0.2s;
-    margin: auto 1vw;
+    margin: auto 19.2px;
 }
 
 .sign-up-button, .sign-up-button-responsive {
-    width: 5vw;
-    height: 1.5vw;
-    margin: 0.5vw 0;
-    border-radius: 0.3vw;
-    font-size:0.7vw;
+    width: 96px;
+    height: 28.8px;
+    margin: 9.6px 0;
+    border-radius: 5.76px;
+    font-size:13.44 px;
     transition: transform 0.2s;
     padding: 0;
 }
 
 .info-tile-ilustration{
-    width: 7.4vw;
-    height: 7.42vw;
-    border-radius: 0.75vw;
-    border: 0.3vw solid #3882f6;
+    width: 142.08px;
+    height: 142.464px;
+    border-radius: 14.4px;
+    border: 5.76px solid #3882f6;
     
 }
 
 .info-tile, .info-tile-responsive {
-    margin: 0 1vw;
+    margin: 0 19.2px;
     flex-grow: 1;
     font-family:Roboto-Medium, Georgia, 'Times New Roman', Times, serif ;
-    font-size: 0.877vw;
+    font-size: 16.8384px;
     text-align: center;
     transition: transform 0.2s;
 }
 
 .standard-size {
-    width: 100vw;
-    height: 24vw;
+    width: 1920px;
+    height: 460.8px;
 }
 
 .dark-background {
@@ -249,7 +249,7 @@ body, figure{
 }
 
 .header-link-responsive:hover {
-    font-size: 1vw;
+    font-size: 19.2px;
     color: #f9faf8;
 }
 
