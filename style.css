@@ -138,7 +138,7 @@ body, figure{
 }
 
 .hero-content-text{
-    width: 0.1vw;
+    width: 20vw;
     margin-right: 3vw;
     flex-grow: 1;
     align-self: center;
@@ -147,7 +147,7 @@ body, figure{
 }
 
 .hero-placeholder-image{
-    width: 1vw;
+    width: 30vw;
     height: 10vw;
     object-fit:cover;
     margin-left: 3vw;
