@@ -32,6 +32,12 @@ body, figure{
     margin: 0;
 }
 
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+}
+
 .info-tile-ilustration-image{
     width: inherit;
     height: inherit;
@@ -49,17 +55,16 @@ body, figure{
 
 .info-tiles-container {
     padding: 0vw 30vw;
+    list-style-type: none;
 }
 
-.quote-container {
-    padding: 3vw 30vw;
-}
 
 .quote-text{
     font-family: Roboto-Light-Italic, Georgia, 'Times New Roman', Times, serif;
     font-size: 1.81vw;
     color: #1f2937;
-    margin: 0;
+    margin: 0 20vw;
+    margin-top: 5vw;
 }
 
 .call-to-action{
@@ -98,11 +103,17 @@ body, figure{
     font-weight: bolder;
     text-align: right;
     background-color: transparent;
+    margin: 0 25vw;
+    
+
 }
 
 .header {
-    margin: auto 20vw;
-    padding-top: 0.5vw;
+    padding: 0.5vw 20vw;
+}
+
+.navbar{
+    flex-grow: 1;
 }
 
 .footer{
@@ -124,21 +135,26 @@ body, figure{
 }
 
 .hero-content{
-    padding: 5vw 20vw;
+    width: 100vw;
 }
 
 .hero-content-text{
-    width: 20vw;
-    margin-right: 3vw
+    width: 0.1vw;
+    margin-right: 3vw;
+    flex-grow: 1;
+    align-self: center;
+    padding-left: 20vw;
     
 }
 
 .hero-placeholder-image{
-    width: 30vw;
+    width: 1vw;
     height: 10vw;
-    object-fit: cover;
+    object-fit:cover;
     margin-left: 3vw;
     align-self: center;
+    flex-grow: 1;
+    padding-right: 20vw;
 }
 
 .hero-content-text-main{
@@ -155,7 +171,6 @@ body, figure{
 
 .header-link, .header-link-responsive {
     text-decoration: none;
-    flex-grow: 1;
     font-family: Roboto-Light, Georgia, 'Times New Roman', Times, serif;
     font-size: 0.8vw;
     transition: font-size 0.2s, color 0.2s;
@@ -172,21 +187,21 @@ body, figure{
     padding: 0;
 }
 
-.info-tile-ilustration{
+.info-tile-ilustration, .info-tile-ilustration-responsive {
     width: 7.4vw;
     height: 7.42vw;
     border-radius: 0.75vw;
     border: 0.3vw solid #3882f6;
+    transition: transform 0.2s;
     
 }
 
-.info-tile, .info-tile-responsive {
+.info-tiles-container figure {
     margin: 0 1vw;
     flex-grow: 1;
     font-family:Roboto-Medium, Georgia, 'Times New Roman', Times, serif ;
     font-size: 0.877vw;
     text-align: center;
-    transition: transform 0.2s;
 }
 
 .standard-size {
@@ -253,6 +268,6 @@ body, figure{
     color: #f9faf8;
 }
 
-.info-tile-responsive:hover {
+.info-tile-ilustration-responsive:hover {
     transform: scale(1.2);
 }

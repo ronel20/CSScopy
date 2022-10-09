@@ -32,6 +32,12 @@ body, figure{
     margin: 0;
 }
 
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+}
+
 .info-tile-ilustration-image{
     width: inherit;
     height: inherit;
@@ -49,17 +55,15 @@ body, figure{
 
 .info-tiles-container {
     padding: 0px 576px;
-}
-
-.quote-container {
-    padding: 70.2px 576px;
+    list-style-type: none;
 }
 
 .quote-text{
     font-family: Roboto-Light-Italic, Georgia, 'Times New Roman', Times, serif;
     font-size: 34.752px;
     color: #1f2937;
-    margin: 0;
+    margin: 0 20vw;
+    margin-top: 5vw;
 }
 
 .call-to-action{
@@ -98,11 +102,16 @@ body, figure{
     font-weight: bolder;
     text-align: right;
     background-color: transparent;
+    margin: 0 25vw;
 }
 
 .header {
-    margin: auto 384px;
-    padding-top: 9.6px;
+    padding: 0.5vw 20vw;
+}
+
+.navbar{
+    flex-grow: 1;
+
 }
 
 .footer{
@@ -124,12 +133,15 @@ body, figure{
 }
 
 .hero-content{
-    padding: 96px 384px;
+    width: 100vw;
 }
 
 .hero-content-text{
     width: 384px;
-    margin-right: 57.6px
+    margin-right: 57.6px;
+    flex-grow: 1;
+    align-self: center;
+    padding-left: 20vw;
     
 }
 
@@ -139,6 +151,8 @@ body, figure{
     object-fit: cover;
     margin-left: 57.6px;
     align-self: center;
+    flex-grow: 1;
+    padding-right: 20vw;
 }
 
 .hero-content-text-main{
@@ -155,7 +169,6 @@ body, figure{
 
 .header-link, .header-link-responsive {
     text-decoration: none;
-    flex-grow: 1;
     font-family: Roboto-Light, Georgia, 'Times New Roman', Times, serif;
     font-size: 15.36px;
     transition: font-size 0.2s, color 0.2s;
@@ -180,7 +193,7 @@ body, figure{
     
 }
 
-.info-tile, .info-tile-responsive {
+.info-tiles-container figure, .info-tiles-container-responsive figure {
     margin: 0 19.2px;
     flex-grow: 1;
     font-family:Roboto-Medium, Georgia, 'Times New Roman', Times, serif ;
