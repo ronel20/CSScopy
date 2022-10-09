@@ -1,3 +1,3 @@
 # CSScopy
 
-Visit the website: https://ronel20.github.io/
+Visit the website: https://ronel20.github.io/CSScopy/
