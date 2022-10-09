@@ -62,8 +62,8 @@ body, figure{
     font-family: Roboto-Light-Italic, Georgia, 'Times New Roman', Times, serif;
     font-size: 34.752px;
     color: #1f2937;
-    margin: 0 20vw;
-    margin-top: 5vw;
+    margin: 0 384px;
+    margin-top: 96px;
 }
 
 .call-to-action{
@@ -102,20 +102,20 @@ body, figure{
     font-weight: bolder;
     text-align: right;
     background-color: transparent;
-    margin: 0 25vw;
+    margin: 0 480px;
 }
 
 .header {
-    padding: 0.5vw 20vw;
+    width: 1303px;
+    padding: 9.6px 300px;
 }
 
 .navbar{
     flex-grow: 1;
-
 }
 
 .footer{
-    width: 1920px;
+    width: 1903px;
     height: 28.8px;
     background-color: #1F2937;
     padding: 19.2px 0;
@@ -132,16 +132,12 @@ body, figure{
     font-size: 19.2px;
 }
 
-.hero-content{
-    width: 100vw;
-}
-
 .hero-content-text{
     width: 384px;
     margin-right: 57.6px;
     flex-grow: 1;
     align-self: center;
-    padding-left: 20vw;
+    padding-left: 384px;
     
 }
 
@@ -152,7 +148,7 @@ body, figure{
     margin-left: 57.6px;
     align-self: center;
     flex-grow: 1;
-    padding-right: 20vw;
+    padding-right: 384px;
 }
 
 .hero-content-text-main{
@@ -203,7 +199,7 @@ body, figure{
 }
 
 .standard-size {
-    width: 1920px;
+    width: 1903px;
     height: 460.8px;
 }
 
